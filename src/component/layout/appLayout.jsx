@@ -80,7 +80,10 @@ const AppLayout = ({ children }) => {
                             <Link to="/products">products</Link>
                         </Menu.Item>
                         <Menu.Item key="7">
-                            <Link to="/wishlists">wishlist</Link>
+                            <Link to="/booking">Booking</Link>
+                        </Menu.Item>
+                        <Menu.Item key="8">
+                            <Link to="/car-return">Return</Link>
                         </Menu.Item>
                     </Menu>
                 </Sider>
