@@ -140,12 +140,14 @@ const Product = () => {
     ];
 
     return (
+        
         // <div>
         //     {
         //         ProductData.map(product => <h1 key={product.code}> {product.name} </h1>)
         //     }
         // </div>
         <div>
+            {console.log('hello',ProductData)}
             <Table columns={columns} dataSource={ProductData} />
         </div>
     )
